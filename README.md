@@ -13,7 +13,7 @@ The following versions have been tested: Python 3.6 + Pytorch 1.9.0. But newer v
 ## Training and Testing
 Firstly, run "`Train_singletime.py`" and save the well-trained model and analog beamformers (set the path at "`torch.save(state, \path)`", "`torch.save(FRF_container, 'path')`", "`torch.save(WRF_container, 'path')`");
 
-Then, run "`Train_twotime.py`" and load the well-trained model and analog beamforming (set the path at "`FRF = torch.load('path')`", "`WRF = torch.load('path')`","`load_data1 = torch.load(path)`", "`load_data2 = torch.load(path)`")。
+Then, run "`Train_twotime.py`" and load the well-trained model and analog beamforming (set the path at "`FRF = torch.load('path')`", "`WRF = torch.load('path')`","`load_data1 = torch.load(path)`", "`load_data2 = torch.load(path)`").
 
 
 ## The introduction of each file
